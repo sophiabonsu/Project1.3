@@ -8,6 +8,10 @@ h1 {
   color: #cc0099;
   font-size: 80px;
 }
+#gall_title p{
+  text-align: center;
+
+}
 h2 {
   text-align: left;
   font-family: "Dancing Script", cursive;
