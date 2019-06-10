@@ -1,0 +1,193 @@
+body,html {
+  height:100%;
+  background-color: #140f2d;
+}
+h1 {
+  text-align: center;
+  font-family: "Josefin Sans", sans-serif;
+  color: #cc0099;
+  font-size: 80px;
+}
+h2 {
+  text-align: left;
+  font-family: "Dancing Script", cursive;
+  color: #3f88c5;
+}
+.about p {
+  color: #3f88c5;
+  text-align: center;
+  font-family: "Josefin Sans", sans-serif;
+}
+ul {
+  color: #f49d37;
+  font-family: "Josefin Sans", sans-serif;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.about img {
+  border-radius: 25%;
+  border-center:15px solid
+  text-align: center;
+  font-family: "Dancing Script", cursive;
+  color: #cc0099;
+
+
+}
+
+img {
+  justify-content: center;
+  background-color: #140f2d;
+  display:inline-block ;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: 100%;
+}
+.activeBar ul li {
+  height: 50px;
+  text-align: center;
+  display: inline-block;
+  font-family: "Josefin Sans", sans-serif;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.activeBar {
+  position: sticky;
+}
+ul {
+  text-align: center;
+  display: inline-table;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+  border-center: 20px solid #e7e7e7;
+  background-color: #140f2d;
+}
+
+li a {
+  top: 0%;
+  display: block;
+  text-align: center;
+  width: 100%;
+  padding: 14px 16px;
+  text-decoration: none;
+  color: #f49d37;
+}
+.gifs  {
+  border: 15px solid #f49d37;
+}
+.
+.check {
+  color: #d72638;
+  font-family: "Courgette", cursive;
+}
+.check {
+  color: red;
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+  font-family: "Courgette", cursive;
+}
+/* Add a black background color to the top navigation */
+.activeBar {
+  background-color: #140f2d;
+  overflow: hidden;
+  margin: 0;
+}
+
+/* Style the links inside the navigation bar */
+.activeBar a {
+  float: left;
+  color: #f49d37;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.activeBar a:hover {
+  background-color: #d72638;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.activeBar a.active {
+  background-color: #f49d37;
+  color: white;
+}
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+
+.centered h1 {
+  font-family: 'Niconne', cursive;
+  text-align: center
+  font-size: 90px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #f49d37;
+
+}
+.line1,.line2,.line3,{
+  border-radius: 50%;
+  display:inline-block;
+  text-align: center;
+  width: 100px;
+  height: 100px;
+  border: 4px solid black;
+  margin-top: 10px;
+}
+
+div.agriculture {
+  margin: 5px;
+  margin-bottom: 1px;
+  border: 2px solid red;
+  float: left;
+  width: 200px;
+}
+div.Housing {
+  margin: 5px;
+  margin-bottom: 10px;
+  border: 2px solid red;
+  float: left;
+  width: 200px;
+}
+div.health {
+  margin: 5px;
+  margin-bottom: 10px;
+  border: 2px solid red;
+  float: left;
+  width: 200px;
+}
+@keyframes falls{
+  from{
+    opacity:0;
+  }
+  to{
+    opacity:1;
+  }
+}
+
+.health{
+  opacity:0;
+  animation: falls 1s forwards;
+  animation-timing-function: ease-in-out;
+}
+.agriculture{
+  opacity:0;
+  animation: falls 2s forwards;
+  animation-timing-function: ease-in-out;
+}
+.Housing{
+  opcaity:0;
+  animation:falls 3s forwards;
+  animation-timing-function: ease-in-out;
+}
