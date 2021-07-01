@@ -6,16 +6,16 @@ h1 {
   text-align: center;
   font-family: "Josefin Sans", sans-serif;
   color: #cc0099;
-  font-size: 80px;
+  font-size: 30px;
 }
 #gall_title p{
   text-align: center;
 
 }
 h2 {
-  text-align: left;
-  font-family: "Dancing Script", cursive;
-  color: #3f88c5;
+  text-align: center;
+  font-family: 'IBM Plex Sans', sans-serif;
+  color:#f49d37 ;
 }
 .about p {
   color: #3f88c5;
@@ -45,8 +45,8 @@ img {
   display:inline-block ;
   margin-left: auto;
   margin-right: auto;
-  width: 100%;
-  height: 100%;
+  width: 25%;
+  height: 25%;
 }
 .activeBar ul li {
   height: 50px;
@@ -130,9 +130,9 @@ li a {
 
 
 .centered h1 {
-  font-family: 'Niconne', cursive;
+  font-family:'IBM Plex Sans', sans-serif;
   text-align: center
-  font-size: 90px;
+  font-size: 20px;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -194,4 +194,125 @@ div.health {
   opcaity:0;
   animation:falls 3s forwards;
   animation-timing-function: ease-in-out;
+}
+.fa {
+  padding: 15px;
+  font-size: 30px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+  margin: 3px 2px;
+}
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+background: #3B5998;
+color: white;
+}
+
+.fa-twitter {
+background: #55ACEE;
+color: white;
+}
+
+.fa-google {
+background: #dd4b39;
+color: white;
+}
+
+.fa-linkedin {
+/*background: #EAEAEA ;*/
+color: white;
+}
+
+.fa-youtube {
+background: #bb0000;
+color: white;
+}
+
+.fa-instagram {
+/*background: #125688;*/
+color: white;
+}
+
+.fa-pinterest {
+/*background: #cb2027;*/
+color: white;
+}
+
+.fa-snapchat-ghost {
+background: #fffc00;
+color: white;
+text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.fa-skype {
+background: #00aff0;
+color: white;
+}
+
+.fa-android {
+background: #a4c639;
+color: white;
+}
+
+.fa-dribbble {
+background: #ea4c89;
+color: white;
+}
+
+.fa-vimeo {
+background: #45bbff;
+color: white;
+}
+
+.fa-tumblr {
+background: #2c4762;
+color: white;
+}
+
+.fa-vine {
+background: #00b489;
+color: white;
+}
+
+.fa-foursquare {
+background: #45bbff;
+color: white;
+}
+
+.fa-stumbleupon {
+background: #eb4924;
+color: white;
+}
+
+.fa-flickr {
+background: #f40083;
+color: white;
+}
+
+.fa-yahoo {
+background: #430297;
+color: white;
+}
+
+.fa-soundcloud {
+background: #ff5500;
+color: white;
+}
+
+.fa-reddit {
+background: #ff5700;
+color: white;
+}
+
+.fa-github {
+/*background: #ff5700;*/
+color: white;
+}
+.fa-rss {
+background: #ff6600;
+color: white;
 }
